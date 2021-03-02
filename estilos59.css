@@ -1,0 +1,52 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	background: #1e324d;
+	padding: 0 5%;
+	color: #fff;
+}
+.imagen{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+	left: 450px;
+}
+.titulo{
+	padding: 30px 0;
+}
+
+.uno{
+	color: #44A9FF;
+}
+.dos{
+	color: #35EB42;
+}
+.tres{
+	color: #E73434;
+}
+.cuatro{
+	color: #F7864E;
+}
+h2{
+	font-family: 'Poppins', sans-serif;
+}
+ul li{
+	padding: 0 0 5px 0;
+	font-size: 1em;
+	font-family: 'Poppins', sans-serif;
+}
+.enlace1, .enlace2, .enlace3{
+	color: #fff;
+	transition: 0.5s;
+	font-family: 'Poppins', sans-serif;
+
+}
+.enlace1:hover, .enlace2:hover, .enlace3:hover{
+	color: #6314ad;
+}
+
+
